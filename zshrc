@@ -10,4 +10,4 @@ export PATH="/usr/local/bin:$PATH"
 source $ZSH/oh-my-zsh.sh
 
 # for Homebrew installed rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
