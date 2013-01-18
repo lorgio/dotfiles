@@ -1,0 +1,20 @@
+# ~/.tmuxinator/weekend.yml
+# you can make as many tabs as you wish...
+
+project_name: Travel+Leisure
+project_root: ~/Sites/travel-leisure
+pre:
+  - rbenv local 1.9.3-p194
+tabs:
+  - console:  rails c
+  - editor:
+      layout: main-horizontal
+      panes:
+        - cd features; vim .
+  - cucumber:
+      layout: main-horizontal
+      panes:
+        - cucumber features/
+  - server:  rails s
+  - shell:
+

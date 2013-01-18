@@ -1,0 +1,14 @@
+# ~/.tmuxinator/weekend.yml
+# you can make as many tabs as you wish...
+
+project_name: LJ T+L
+project_root: ~/Sites/ljime3s-travel-leisure
+pre: powder unlink; powder link; powder open
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim .
+  - console:  ruby/script c
+  - shell: git fetch
+

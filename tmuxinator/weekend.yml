@@ -1,0 +1,11 @@
+# ~/.tmuxinator/weekend.yml
+# you can make as many tabs as you wish...
+
+project_name: Weekend Getaways
+project_root: ~/Sites/weekend_getaway
+tabs:
+  - editor: vim .
+  - console: cd test_tl_tools_app; rails c
+  - cucumber: cd test_tl_tools_app; cucumber features/weekend_getaway/
+  - shell: git fetch
+  - logs: cd test_tl_tools_app; tail -f log/development.log

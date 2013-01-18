@@ -1,0 +1,18 @@
+# ~/.tmuxinator/weekend.yml
+# you can make as many tabs as you wish...
+
+project_name: Community Interface
+project_root: ~/Sites/engines/community_interface
+pre: rbenv local 1.9.3-p194;
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim .
+  - test:
+      layout: main-horizontal
+      panes:
+        - cd spec; vim .
+        - bundle exec rake test
+  - shell: git pull
+  - leningrad: cd ~/Sites/leningrad; rbenv local 1.9.3-p194; bundle install; rails s -p 3333

@@ -1,0 +1,19 @@
+# ~/.tmuxinator/weekend.yml
+# you can make as many tabs as you wish...
+
+project_name: Blocks API
+project_root: ~/Sites/apis/blocks-api
+pre: rbenv local 1.9.3-p194; powder unlink; powder link; powder open
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim .
+  - rspec:
+      layout: main-horizontal
+      panes:
+        - rspec spec/
+  - console:  rails c
+  - shell: git pull
+  - log: tail -f log/development.log
+

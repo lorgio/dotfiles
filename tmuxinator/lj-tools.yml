@@ -1,0 +1,16 @@
+# ~/.tmuxinator/weekend.yml
+# you can make as many tabs as you wish...
+
+project_name: LJ T+L Tools
+project_root: ~/Sites/ljime3s-tl-tools
+pre: powder unlink; powder link; powder open
+tabs:
+  - editor:
+      layout: main-vertical
+        - vim .
+  - testing:
+      layout: main-horizontal
+  - console:  rails c
+  - shell: git fetch
+  - log: tail -f log/development.log
+

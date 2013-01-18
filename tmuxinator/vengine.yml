@@ -1,0 +1,10 @@
+# ~/.tmuxinator/weekend.yml
+# you can make as many tabs as you wish...
+
+project_name: VenuesService Engine
+project_root: ~/Sites/engines/venues_service_engine
+tabs:
+  - editor:
+      panes:
+        - vim .
+  - shell: git pull

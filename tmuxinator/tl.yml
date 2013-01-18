@@ -1,0 +1,22 @@
+# ~/.tmuxinator/weekend.yml
+# you can make as many tabs as you wish...
+
+project_name: Travel+Leisure
+project_root: ~/Sites/travel-leisure
+pre:
+  - powder unlink
+  - powder link
+  - powder open
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim .
+  - console:  ruby script/console
+  - cucumber:
+      layout: main-horizontal
+      panes:
+        - cd features; vim .
+        - cucumber features/
+  - shell: git fetch
+

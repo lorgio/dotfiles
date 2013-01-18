@@ -1,0 +1,13 @@
+# ~/.tmuxinator/weekend.yml
+# you can make as many tabs as you wish...
+
+project_name: SB T+L
+project_root: ~/Sites/sbail7s-travel-leisure
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim .
+  - console:  ruby/script c
+  - shell: git fetch
+

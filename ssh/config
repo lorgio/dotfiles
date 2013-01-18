@@ -1,0 +1,178 @@
+Host p001
+HostName lcarpwa001.car.amexpub.intra
+User tl_deploy
+
+Host p002
+HostName lcarpwa002.car.amexpub.intra
+User tl_deploy
+
+Host p003
+HostName lcarpwa003.car.amexpub.intra
+User tl_deploy
+
+Host p004
+HostName lcarpwa004.car.amexpub.intra
+User tl_deploy
+
+Host p008
+HostName lcarpwa008.car.amexpub.intra
+User tl_deploy
+
+Host p010
+HostName lcarpwa010.car.amexpub.intra
+User tl_deploy
+
+host tnl_cms
+HostName cms.travelandleisure.com
+user tl_deploy
+
+host old_cms
+HostName laepdww002.amexpub.com
+user tl_deploy
+
+host sDep
+HostName lcarswa001.car.amexpub.intra
+user tl_deploy
+
+host qaTL
+HostName laepvmui002.online.amexpub.com
+user tl_deploy
+
+
+host venueAPI
+HostName Lcarpwa004.car.amexpub.intra
+user tl_deploy
+
+host venueQA
+Hostname qa.venues.amexpub.com
+user tl_deploy
+
+host spinks
+HostName thespinksgroup.com
+user  webadmin
+
+host deploy
+HostName laepqmavm003.amexpub.com
+user tl_deploy
+
+host skyguide
+HostName laepqwavm001.online.amexpub.com
+user tl_deploy
+
+host qatl
+HostName qa.www.travelandleisure.com
+user tl_deploy
+
+host redmine
+HostName redmine.tools.qa.amexpub.com
+user tl_deploy
+
+host tools
+HostName laepdwa001.amexpub.com
+user tl_deploy
+
+host services
+HostName services.travelandleisure.com
+user tl_deploy
+
+host old-git
+HostName git.tools.qa.amexpub.com
+user git
+
+host gitorious
+HostName git.amexpub.com
+user tl_admin
+
+host ci
+HostName ci.amexpub.com
+user tl_deploy
+
+host 234
+HostName 172.31.0.234
+user tl_deploy
+
+host 238
+HostName 172.31.0.238
+user tl_deploy
+
+host np1
+HostName lsecpwavm031.sec.amexpub.com
+user tl_admin
+
+host np2
+HostName lsecpwavm032.sec.amexpub.com
+user tl_admin
+
+host np3
+HostName lsecpwavm035.sec.amexpub.com
+user tl_admin
+
+host npc
+HostName Laeppwavm003.amexpub.com
+user tl_admin
+
+host pupp
+HostName puppet.amexpub.com
+user tl_admin
+
+host nps1
+HostName lsecpwavm027-mgt.sec.amexpub.com
+user tl_admin
+
+host nps2
+HostName lsecpwavm028-mgt.sec.amexpub.com
+user tl_admin
+
+host npt
+HostName laeppwavm007.amexpub.com
+user tl_admin
+
+host builder
+HostName builder.amexpub.com
+user tl_admin
+
+host builder2
+HostName laepqmavm006.amexpub.com
+user tl_admin
+
+host rails3
+HostName laepqwavm020.amexpub.com
+user tl_admin
+
+#COMMUNITY
+
+host len1
+HostName lsecpwavm047.sec.amexpub.com
+user tl_admin
+
+host len2
+HostName lsecpwavm048.sec.amexpub.com
+user tl_admin
+
+host len3
+HostName lsecpwavm049.sec.amexpub.com
+user tl_admin
+
+host lenqa
+HostName laepqwavm023.amexpub.com
+user tl_admin
+
+host krem
+HostName laeppwavm016.amexpub.com
+user tl_admin
+
+host kremqa
+HostName laepqwavm024.amexpub.com
+user tl_admin
+
+# TL Frontend Beta VIRTUAL - 172.31.90.188
+
+host beta1
+HostName lsecswavm003.sec.amexpub.com
+user tl_admin
+
+host beta2
+HostName lsecswavm004.sec.amexpub.com
+user tl_admin
+
+

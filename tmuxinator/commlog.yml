@@ -1,0 +1,21 @@
+# ~/.tmuxinator/weekend.yml
+# you can make as many tabs as you wish...
+
+project_name: Community LogiStration
+project_root: ~/Sites/community-logistration
+pre: cd community-logistration-rails; powder unlink; powder link; powder open
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim .
+        - #empty, will just run plain bash
+  - cucumber:
+      layout: main-horizontal
+      panes:
+        - cd features; vim .
+        - cucumber features/
+  - console:  rails c
+  - shell: git fetch
+  - log: cd community-logistration-rails; tail -f log/development.log
+
