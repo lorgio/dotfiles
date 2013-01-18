@@ -22,7 +22,7 @@ Feel free to customize the .zshrc file to match your preference.
 
 ## Features
 
-Many of the following features are added through the "rbates" Oh My ZSH plugin.
+Many of the following features are added through the "ljime3" Oh My ZSH plugin.
 
 I normally place all of my coding projects in ~/code, so this directory can easily be accessed (and tab completed) with the "c" command.
 

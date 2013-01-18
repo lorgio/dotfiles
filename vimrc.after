@@ -1,0 +1,5 @@
+:colorscheme vividchalk
+set guifont=Monaco:h16
+autocmd BufWritePre * :%s/\s\+$//e
+let g:ctrlp_working_path_mode = 0
+

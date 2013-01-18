@@ -1,0 +1,4 @@
+let mapleader = ","
+call janus#disable_plugin('nerdtree') 
+autocmd BufWritePre * :%s/\s\+$//e
+
